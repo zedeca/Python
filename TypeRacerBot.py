@@ -4,8 +4,9 @@ import pyautogui
 import time
 
 
-USERNAME = " "     #YOUR TYPERACER ACCOUNT EMAIL-ID
-PASSWORD = " "     #YOUR TYPERACER ACCOUNT PASSWORD
+# USERNAME = " "     #YOUR TYPERACER ACCOUNT EMAIL-ID [OPTIONAL]
+# PASSWORD = " "     #YOUR TYPERACER ACCOUNT PASSWORD [OPTIONAL]
+
 PATH = " "         #YOUR CHROMEDRIVER PATH/ADDRESS IN YOUR DEVICE
 
 
@@ -61,7 +62,7 @@ def re_match():
 
 def main():
     
-    login()
+    #login()	# [OPTIONAL IF NO ACCOUNT]
     enter_match()
     
     while True:
